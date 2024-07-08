@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>우리상사 ERP 시스템 2023</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html {
+      width: 100vw;
+      height: 100vh;
+    }
+    body {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    section {
+      flex: 1;
+    }
+    header {
+      width: 100%;
+      background-color: green;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+    }
+
+    nav {
+      width: 100%;
+      background-color: black;
+      color: white;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+    }
+    nav li {
+      padding: 1rem;
+    }
+    nav li:hover {
+      cursor: pointer;
+      background-color: #777;
+    }
+
+    nav li:nth-of-type(6) {
+      margin-left: auto;
+    }
+
+    form {
+      width: 50vw;
+    }
+
+    fieldset {
+      padding: 2rem;
+      margin: 3rem;
+      text-align: center;
+      border: 1px solid green;
+    }
+
+    form div {
+      width: 90%;
+      margin: 5px auto;
+      display: flex;
+    }
+
+    form label,
+    form input {
+      padding: 8px;
+    }
+
+    form label {
+      flex: 1;
+      text-align: right;
+      color: blue;
+      font-weight: bold;
+    }
+
+    form input {
+      flex: 3;
+      border-radius: 10px;
+      outline: none;
+      border: 1px solid #777;
+    }
+
+    form input:hover {
+      background-color: #ddd;
+      cursor: pointer;
+    }
+
+    form input:focus {
+      border: 1px solid blue;
+    }
+
+    footer {
+      width: 100%;
+      background-color: #ccc;
+      text-align: center;
+      padding: 0.7rem;
+    }
+    button {
+      padding: 7px 12px;
+      border-radius: 5px;
+      border: none;
+    }
+    .a {
+      background-color: blue;
+      color: white;
+    }
+    .b {
+      background-color: green;
+      color: white;
+    }
+    .c {
+      background-color: darkgray;
+      color: white;
+    }
+  </style>
+  <body>
+    <header>
+      <h1>우리상사 ERP 시스템 2023</h1>
+      <p>우리상사 ERP - 거래처 관리</p>
+    </header>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>주문관리</li>
+        <li>결제관리</li>
+        <li>거래처관리</li>
+        <li>상품관리</li>
+        <li>로그인</li>
+        <li>회원가입</li>
+      </ul>
+    </nav>
+    <section>
+      <form>
+        <fieldset>
+          <div>
+            <label>거래처코드</label
+            ><input type="text" placeholder="거래처코드를 입력하세요" />
+          </div>
+          <div>
+            <label>거래처명</label
+            ><input type="text" placeholder="거래처명을 입력하세요" />
+          </div>
+          <div>
+            <label>대표전화</label
+            ><input type="text" placeholder="대표전화를 입력하세요" />
+          </div>
+          <div>
+            <label>대표자명</label
+            ><input type="text" placeholder="대표자명을 입력하세요" />
+          </div>
+          <div>
+            <label>주소</label
+            ><input type="text" placeholder="주소를 입력하세요" />
+          </div>
+          <div>
+            <label>담당자</label
+            ><input type="text" placeholder="담당자를 입력하세요" />
+          </div>
+          <div>
+            <label>담당연락처</label
+            ><input type="text" placeholder="담당연락처를 입력하세요" />
+          </div>
+          <button class="a">저장</button>
+          <button class="b">다시작성</button>
+          <button class="c">리스트로</button>
+        </fieldset>
+      </form>
+    </section>
+    <footer>
+      <address>CopyRight &copy; mj01164@naver.com</address>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>우리상사 ERP</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html {
+      height: 100vh;
+    }
+    body {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    section {
+      flex: 1;
+      display: flex;
+    }
+    header {
+      background-color: lightskyblue;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+    }
+    div {
+      border: 1px solid lightgreen;
+      margin: 5px auto;
+      padding: 5px;
+      width: 30%;
+      height: 100%;
+    }
+    nav {
+      background-color: black;
+      color: white;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+    }
+
+    nav li {
+      padding: 1rem;
+    }
+
+    nav li:hover {
+      cursor: pointer;
+      background-color: #777;
+    }
+
+    nav li:nth-of-type(4) {
+      margin-left: 600px;
+    }
+
+    nav li:nth-of-type(6) {
+      margin-left: auto;
+    }
+
+    footer {
+      background-color: #ccc;
+      text-align: center;
+      padding: 0.7rem;
+    }
+  </style>
+  <body>
+    <header>
+      <h1>우리상사 ERP 2023</h1>
+      <p>우리상사 ERP Dash Board</p>
+    </header>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>주문관리</li>
+        <li>결제관리</li>
+        <li>거래처관리</li>
+        <li>상품관리</li>
+        <li>로그인</li>
+        <li>회원가입</li>
+      </ul>
+    </nav>
+    <section>
+      <div>금일결제 예정</div>
+      <div>매출현황</div>
+      <div>현금입출 현황</div>
+    </section>
+    <footer>
+      <address>CopyRight &copy; callor@callor.com</address>
+    </footer>
+  </body>
+</html>
