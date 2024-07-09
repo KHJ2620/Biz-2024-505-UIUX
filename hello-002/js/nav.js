@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     //alert("UL");
     const target = e.target;
     if (target.tagName == "LI") {
-      const text = target.textContext;
+      const text = target.textContent;
       //alert(`${text} 메뉴가 클릭됨`);
       if (text === "Home") {
         document.location.href = "./index0.html";
