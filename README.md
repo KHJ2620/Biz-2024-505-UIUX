@@ -8,24 +8,24 @@
 
 ## vsCode 플러그인 설치하기
 
-![alt text](image.png)
-![alt text](image-1.png)
+![alt text](./images/image.png)
+![alt text](./images/image-1.png)
 
 - 검색창에 `korea` 입력 : `korean Language Pack` 설치
 
-![alt text](image-2.png)
+![alt text](./images/image-2.png)
 
 - 검색창에 `prettier` 입력 : `Prettier - Code formatter`
-  ![alt text](image-3.png)
+  ![alt text](./images/image-3.png)
 
 - 검색창에 `EsLint` 입력 : `EsLint` 설치
-  ![alt text](image-4.png)
+  ![alt text](./images/image-4.png)
 
 - 검색창에 `ICon` 입력 : `Material Icon Theme` 설치
-  ![alt text](image-5.png)
+  ![alt text](./images/image-5.png)
 
 - 검색창에 `live` 입력 : `live server` 설치
-  ![alt text](image-6.png)
+  ![alt text](./images/image-6.png)
 
 ## vsCode 세팅하기
 
